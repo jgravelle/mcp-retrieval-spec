@@ -1,0 +1,336 @@
+{
+  "repo": "fastapi/fastapi",
+  "benchmark_version": "1.0",
+  "queries": [
+    {
+      "query_id": "fapi-01",
+      "query": "dependency injection database session",
+      "results": {
+        "naive": {
+          "method": "naive",
+          "tokens": 949904,
+          "time_s": 0.636,
+          "cost_usd": 2.8497,
+          "precision": 1.0,
+          "note": "Read all files. First match: C:\\Users\\JGRAVE~1\\AppData\\Local\\Temp\\munch_benchmark_repos\\fastapi_fastapi\\docs_src\\sql_databases\\tutorial001_an_py310.py"
+        },
+        "chunk_rag": {
+          "method": "chunk_rag",
+          "tokens": 331152,
+          "index_tokens": 325620,
+          "retrieval_tokens": 5532,
+          "time_s": 0.943,
+          "cost_usd": 0.9935,
+          "precision": 0.6,
+          "note": "Top chunk score: 0.50 from C:\\Users\\JGRAVE~1\\AppData\\Local\\Temp\\munch_benchmark_repos\\fastapi_fastapi\\fastapi\\exceptions.py"
+        },
+        "jmri": {
+          "method": "jmri",
+          "tokens": 480,
+          "tokens_saved": 976380,
+          "time_s": 12.519,
+          "cost_usd": 0.0014,
+          "precision": 0.96,
+          "note": "SIMULATED \u2014 install jcodemunch-mcp for real numbers: uvx jcodemunch-mcp"
+        }
+      }
+    },
+    {
+      "query_id": "fapi-02",
+      "query": "request body validation pydantic model",
+      "results": {
+        "naive": {
+          "method": "naive",
+          "tokens": 949904,
+          "time_s": 0.415,
+          "cost_usd": 2.8497,
+          "precision": 1.0,
+          "note": "Read all files. First match: C:\\Users\\JGRAVE~1\\AppData\\Local\\Temp\\munch_benchmark_repos\\fastapi_fastapi\\docs_src\\additional_responses\\tutorial001_py310.py"
+        },
+        "chunk_rag": {
+          "method": "chunk_rag",
+          "tokens": 329684,
+          "index_tokens": 325620,
+          "retrieval_tokens": 4064,
+          "time_s": 0.629,
+          "cost_usd": 0.9891,
+          "precision": 0.85,
+          "note": "Top chunk score: 0.80 from C:\\Users\\JGRAVE~1\\AppData\\Local\\Temp\\munch_benchmark_repos\\fastapi_fastapi\\fastapi\\applications.py"
+        },
+        "jmri": {
+          "method": "jmri",
+          "tokens": 480,
+          "tokens_saved": 976380,
+          "time_s": 7.494,
+          "cost_usd": 0.0014,
+          "precision": 0.96,
+          "note": "SIMULATED \u2014 install jcodemunch-mcp for real numbers: uvx jcodemunch-mcp"
+        }
+      }
+    },
+    {
+      "query_id": "fapi-03",
+      "query": "OAuth2 password bearer authentication",
+      "results": {
+        "naive": {
+          "method": "naive",
+          "tokens": 949904,
+          "time_s": 0.343,
+          "cost_usd": 2.8497,
+          "precision": 1.0,
+          "note": "Read all files. First match: C:\\Users\\JGRAVE~1\\AppData\\Local\\Temp\\munch_benchmark_repos\\fastapi_fastapi\\docs_src\\security\\tutorial001_an_py310.py"
+        },
+        "chunk_rag": {
+          "method": "chunk_rag",
+          "tokens": 330219,
+          "index_tokens": 325620,
+          "retrieval_tokens": 4599,
+          "time_s": 0.537,
+          "cost_usd": 0.9907,
+          "precision": 0.85,
+          "note": "Top chunk score: 1.00 from C:\\Users\\JGRAVE~1\\AppData\\Local\\Temp\\munch_benchmark_repos\\fastapi_fastapi\\fastapi\\security\\oauth2.py"
+        },
+        "jmri": {
+          "method": "jmri",
+          "tokens": 480,
+          "tokens_saved": 976380,
+          "time_s": 6.221,
+          "cost_usd": 0.0014,
+          "precision": 0.96,
+          "note": "SIMULATED \u2014 install jcodemunch-mcp for real numbers: uvx jcodemunch-mcp"
+        }
+      }
+    },
+    {
+      "query_id": "fapi-04",
+      "query": "background task add",
+      "results": {
+        "naive": {
+          "method": "naive",
+          "tokens": 949904,
+          "time_s": 0.299,
+          "cost_usd": 2.8497,
+          "precision": 1.0,
+          "note": "Read all files. First match: C:\\Users\\JGRAVE~1\\AppData\\Local\\Temp\\munch_benchmark_repos\\fastapi_fastapi\\docs\\en\\docs\\js\\custom.js"
+        },
+        "chunk_rag": {
+          "method": "chunk_rag",
+          "tokens": 329947,
+          "index_tokens": 325620,
+          "retrieval_tokens": 4327,
+          "time_s": 0.528,
+          "cost_usd": 0.9898,
+          "precision": 0.8,
+          "note": "Top chunk score: 0.67 from C:\\Users\\JGRAVE~1\\AppData\\Local\\Temp\\munch_benchmark_repos\\fastapi_fastapi\\fastapi\\applications.py"
+        },
+        "jmri": {
+          "method": "jmri",
+          "tokens": 480,
+          "tokens_saved": 976380,
+          "time_s": 6.485,
+          "cost_usd": 0.0014,
+          "precision": 0.96,
+          "note": "SIMULATED \u2014 install jcodemunch-mcp for real numbers: uvx jcodemunch-mcp"
+        }
+      }
+    },
+    {
+      "query_id": "fapi-05",
+      "query": "middleware CORS add",
+      "results": {
+        "naive": {
+          "method": "naive",
+          "tokens": 949904,
+          "time_s": 0.302,
+          "cost_usd": 2.8497,
+          "precision": 1.0,
+          "note": "Read all files. First match: C:\\Users\\JGRAVE~1\\AppData\\Local\\Temp\\munch_benchmark_repos\\fastapi_fastapi\\docs\\en\\docs\\js\\custom.js"
+        },
+        "chunk_rag": {
+          "method": "chunk_rag",
+          "tokens": 330432,
+          "index_tokens": 325620,
+          "retrieval_tokens": 4812,
+          "time_s": 0.562,
+          "cost_usd": 0.9913,
+          "precision": 0.8,
+          "note": "Top chunk score: 0.67 from C:\\Users\\JGRAVE~1\\AppData\\Local\\Temp\\munch_benchmark_repos\\fastapi_fastapi\\fastapi\\applications.py"
+        },
+        "jmri": {
+          "method": "jmri",
+          "tokens": 480,
+          "tokens_saved": 976380,
+          "time_s": 6.3,
+          "cost_usd": 0.0014,
+          "precision": 0.96,
+          "note": "SIMULATED \u2014 install jcodemunch-mcp for real numbers: uvx jcodemunch-mcp"
+        }
+      }
+    },
+    {
+      "query_id": "fapi-06",
+      "query": "websocket endpoint connect receive",
+      "results": {
+        "naive": {
+          "method": "naive",
+          "tokens": 949904,
+          "time_s": 0.323,
+          "cost_usd": 2.8497,
+          "precision": 1.0,
+          "note": "Read all files. First match: C:\\Users\\JGRAVE~1\\AppData\\Local\\Temp\\munch_benchmark_repos\\fastapi_fastapi\\docs_src\\app_testing\\tutorial002_py310.py"
+        },
+        "chunk_rag": {
+          "method": "chunk_rag",
+          "tokens": 329452,
+          "index_tokens": 325620,
+          "retrieval_tokens": 3832,
+          "time_s": 0.527,
+          "cost_usd": 0.9884,
+          "precision": 0.3,
+          "note": "Top chunk score: 0.25 from C:\\Users\\JGRAVE~1\\AppData\\Local\\Temp\\munch_benchmark_repos\\fastapi_fastapi\\docs_src\\app_testing\\tutorial002_py310.py"
+        },
+        "jmri": {
+          "method": "jmri",
+          "tokens": 480,
+          "tokens_saved": 976380,
+          "time_s": 6.625,
+          "cost_usd": 0.0014,
+          "precision": 0.96,
+          "note": "SIMULATED \u2014 install jcodemunch-mcp for real numbers: uvx jcodemunch-mcp"
+        }
+      }
+    },
+    {
+      "query_id": "fapi-07",
+      "query": "HTTP exception handler status code",
+      "results": {
+        "naive": {
+          "method": "naive",
+          "tokens": 949904,
+          "time_s": 0.312,
+          "cost_usd": 2.8497,
+          "precision": 1.0,
+          "note": "Read all files. First match: C:\\Users\\JGRAVE~1\\AppData\\Local\\Temp\\munch_benchmark_repos\\fastapi_fastapi\\docs_src\\additional_responses\\tutorial001_py310.py"
+        },
+        "chunk_rag": {
+          "method": "chunk_rag",
+          "tokens": 330701,
+          "index_tokens": 325620,
+          "retrieval_tokens": 5081,
+          "time_s": 0.586,
+          "cost_usd": 0.9921,
+          "precision": 0.85,
+          "note": "Top chunk score: 0.80 from C:\\Users\\JGRAVE~1\\AppData\\Local\\Temp\\munch_benchmark_repos\\fastapi_fastapi\\fastapi\\exceptions.py"
+        },
+        "jmri": {
+          "method": "jmri",
+          "tokens": 480,
+          "tokens_saved": 976380,
+          "time_s": 6.213,
+          "cost_usd": 0.0014,
+          "precision": 0.96,
+          "note": "SIMULATED \u2014 install jcodemunch-mcp for real numbers: uvx jcodemunch-mcp"
+        }
+      }
+    },
+    {
+      "query_id": "fapi-08",
+      "query": "path operation decorator get post",
+      "results": {
+        "naive": {
+          "method": "naive",
+          "tokens": 949904,
+          "time_s": 0.308,
+          "cost_usd": 2.8497,
+          "precision": 1.0,
+          "note": "Read all files. First match: C:\\Users\\JGRAVE~1\\AppData\\Local\\Temp\\munch_benchmark_repos\\fastapi_fastapi\\docs\\en\\docs\\js\\custom.js"
+        },
+        "chunk_rag": {
+          "method": "chunk_rag",
+          "tokens": 330701,
+          "index_tokens": 325620,
+          "retrieval_tokens": 5081,
+          "time_s": 0.586,
+          "cost_usd": 0.9921,
+          "precision": 0.72,
+          "note": "Top chunk score: 0.60 from C:\\Users\\JGRAVE~1\\AppData\\Local\\Temp\\munch_benchmark_repos\\fastapi_fastapi\\docs_src\\openapi_callbacks\\tutorial001_py310.py"
+        },
+        "jmri": {
+          "method": "jmri",
+          "tokens": 480,
+          "tokens_saved": 976380,
+          "time_s": 6.465,
+          "cost_usd": 0.0014,
+          "precision": 0.96,
+          "note": "SIMULATED \u2014 install jcodemunch-mcp for real numbers: uvx jcodemunch-mcp"
+        }
+      }
+    },
+    {
+      "query_id": "fapi-09",
+      "query": "response model serialization",
+      "results": {
+        "naive": {
+          "method": "naive",
+          "tokens": 949904,
+          "time_s": 0.285,
+          "cost_usd": 2.8497,
+          "precision": 1.0,
+          "note": "Read all files. First match: C:\\Users\\JGRAVE~1\\AppData\\Local\\Temp\\munch_benchmark_repos\\fastapi_fastapi\\docs\\en\\docs\\js\\init_kapa_widget.js"
+        },
+        "chunk_rag": {
+          "method": "chunk_rag",
+          "tokens": 330730,
+          "index_tokens": 325620,
+          "retrieval_tokens": 5110,
+          "time_s": 0.495,
+          "cost_usd": 0.9922,
+          "precision": 0.8,
+          "note": "Top chunk score: 0.67 from C:\\Users\\JGRAVE~1\\AppData\\Local\\Temp\\munch_benchmark_repos\\fastapi_fastapi\\fastapi\\applications.py"
+        },
+        "jmri": {
+          "method": "jmri",
+          "tokens": 480,
+          "tokens_saved": 976380,
+          "time_s": 6.63,
+          "cost_usd": 0.0014,
+          "precision": 0.96,
+          "note": "SIMULATED \u2014 install jcodemunch-mcp for real numbers: uvx jcodemunch-mcp"
+        }
+      }
+    },
+    {
+      "query_id": "fapi-10",
+      "query": "lifespan startup shutdown event",
+      "results": {
+        "naive": {
+          "method": "naive",
+          "tokens": 949904,
+          "time_s": 0.341,
+          "cost_usd": 2.8497,
+          "precision": 1.0,
+          "note": "Read all files. First match: C:\\Users\\JGRAVE~1\\AppData\\Local\\Temp\\munch_benchmark_repos\\fastapi_fastapi\\docs_src\\app_testing\\tutorial003_py310.py"
+        },
+        "chunk_rag": {
+          "method": "chunk_rag",
+          "tokens": 330702,
+          "index_tokens": 325620,
+          "retrieval_tokens": 5082,
+          "time_s": 0.539,
+          "cost_usd": 0.9921,
+          "precision": 0.85,
+          "note": "Top chunk score: 1.00 from C:\\Users\\JGRAVE~1\\AppData\\Local\\Temp\\munch_benchmark_repos\\fastapi_fastapi\\fastapi\\routing.py"
+        },
+        "jmri": {
+          "method": "jmri",
+          "tokens": 480,
+          "tokens_saved": 976380,
+          "time_s": 5.989,
+          "cost_usd": 0.0014,
+          "precision": 0.96,
+          "note": "SIMULATED \u2014 install jcodemunch-mcp for real numbers: uvx jcodemunch-mcp"
+        }
+      }
+    }
+  ]
+}

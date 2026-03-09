@@ -1,0 +1,156 @@
+{
+  "version": "1.0",
+  "description": "Standard benchmark queries for jMRI retrieval comparison. 10 queries per target repo.",
+  "targets": {
+    "fastapi/fastapi": {
+      "repo_url": "https://github.com/tiangolo/fastapi",
+      "queries": [
+        {
+          "id": "fapi-01",
+          "query": "dependency injection database session",
+          "expected_kind": "function",
+          "expected_file_pattern": "**/database*",
+          "description": "Core DI pattern for DB sessions"
+        },
+        {
+          "id": "fapi-02",
+          "query": "request body validation pydantic model",
+          "expected_kind": "class",
+          "expected_file_pattern": "**/routing*",
+          "description": "Request validation flow"
+        },
+        {
+          "id": "fapi-03",
+          "query": "OAuth2 password bearer authentication",
+          "expected_kind": "class",
+          "expected_file_pattern": "**/security*",
+          "description": "Auth scheme implementation"
+        },
+        {
+          "id": "fapi-04",
+          "query": "background task add",
+          "expected_kind": "method",
+          "expected_file_pattern": "**/background*",
+          "description": "Background task API"
+        },
+        {
+          "id": "fapi-05",
+          "query": "middleware CORS add",
+          "expected_kind": "function",
+          "expected_file_pattern": "**/middleware*",
+          "description": "CORS middleware setup"
+        },
+        {
+          "id": "fapi-06",
+          "query": "websocket endpoint connect receive",
+          "expected_kind": "method",
+          "expected_file_pattern": "**/websockets*",
+          "description": "WebSocket handler"
+        },
+        {
+          "id": "fapi-07",
+          "query": "HTTP exception handler status code",
+          "expected_kind": "function",
+          "expected_file_pattern": "**/exception*",
+          "description": "Exception handling"
+        },
+        {
+          "id": "fapi-08",
+          "query": "path operation decorator get post",
+          "expected_kind": "method",
+          "expected_file_pattern": "**/routing*",
+          "description": "Route registration"
+        },
+        {
+          "id": "fapi-09",
+          "query": "response model serialization",
+          "expected_kind": "function",
+          "expected_file_pattern": "**/routing*",
+          "description": "Response serialization"
+        },
+        {
+          "id": "fapi-10",
+          "query": "lifespan startup shutdown event",
+          "expected_kind": "function",
+          "expected_file_pattern": "**/applications*",
+          "description": "Application lifecycle"
+        }
+      ]
+    },
+    "pallets/flask": {
+      "repo_url": "https://github.com/pallets/flask",
+      "queries": [
+        {
+          "id": "flask-01",
+          "query": "application context push teardown",
+          "expected_kind": "method",
+          "expected_file_pattern": "**/ctx*",
+          "description": "Application context lifecycle"
+        },
+        {
+          "id": "flask-02",
+          "query": "route URL rule add",
+          "expected_kind": "method",
+          "expected_file_pattern": "**/app*",
+          "description": "URL routing registration"
+        },
+        {
+          "id": "flask-03",
+          "query": "request before after hook",
+          "expected_kind": "method",
+          "expected_file_pattern": "**/sansio*",
+          "description": "Request lifecycle hooks"
+        },
+        {
+          "id": "flask-04",
+          "query": "blueprint register",
+          "expected_kind": "method",
+          "expected_file_pattern": "**/blueprints*",
+          "description": "Blueprint registration"
+        },
+        {
+          "id": "flask-05",
+          "query": "session cookie secure",
+          "expected_kind": "method",
+          "expected_file_pattern": "**/sessions*",
+          "description": "Session management"
+        },
+        {
+          "id": "flask-06",
+          "query": "error handler register exception",
+          "expected_kind": "method",
+          "expected_file_pattern": "**/sansio*",
+          "description": "Error handling"
+        },
+        {
+          "id": "flask-07",
+          "query": "template render context",
+          "expected_kind": "function",
+          "expected_file_pattern": "**/templating*",
+          "description": "Template rendering"
+        },
+        {
+          "id": "flask-08",
+          "query": "test client request",
+          "expected_kind": "method",
+          "expected_file_pattern": "**/testing*",
+          "description": "Test client"
+        },
+        {
+          "id": "flask-09",
+          "query": "configuration from object",
+          "expected_kind": "method",
+          "expected_file_pattern": "**/config*",
+          "description": "App configuration"
+        },
+        {
+          "id": "flask-10",
+          "query": "signal connect receiver",
+          "expected_kind": "method",
+          "expected_file_pattern": "**/signals*",
+          "description": "Signal system"
+        }
+      ]
+    }
+  }
+}

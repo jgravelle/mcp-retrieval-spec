@@ -1,0 +1,336 @@
+{
+  "repo": "pallets/flask",
+  "benchmark_version": "1.0",
+  "queries": [
+    {
+      "query_id": "flask-01",
+      "query": "application context push teardown",
+      "results": {
+        "naive": {
+          "method": "naive",
+          "tokens": 147854,
+          "time_s": 0.036,
+          "cost_usd": 0.4436,
+          "precision": 1.0,
+          "note": "Read all files. First match: C:\\Users\\JGRAVE~1\\AppData\\Local\\Temp\\munch_benchmark_repos\\pallets_flask\\examples\\tutorial\\flaskr\\db.py"
+        },
+        "chunk_rag": {
+          "method": "chunk_rag",
+          "tokens": 55741,
+          "index_tokens": 50819,
+          "retrieval_tokens": 4922,
+          "time_s": 0.056,
+          "cost_usd": 0.1672,
+          "precision": 0.85,
+          "note": "Top chunk score: 1.00 from C:\\Users\\JGRAVE~1\\AppData\\Local\\Temp\\munch_benchmark_repos\\pallets_flask\\src\\flask\\app.py"
+        },
+        "jmri": {
+          "method": "jmri",
+          "tokens": 480,
+          "tokens_saved": 151977,
+          "time_s": 2.397,
+          "cost_usd": 0.0014,
+          "precision": 0.96,
+          "note": "SIMULATED \u2014 install jcodemunch-mcp for real numbers: uvx jcodemunch-mcp"
+        }
+      }
+    },
+    {
+      "query_id": "flask-02",
+      "query": "route URL rule add",
+      "results": {
+        "naive": {
+          "method": "naive",
+          "tokens": 147854,
+          "time_s": 0.029,
+          "cost_usd": 0.4436,
+          "precision": 1.0,
+          "note": "Read all files. First match: C:\\Users\\JGRAVE~1\\AppData\\Local\\Temp\\munch_benchmark_repos\\pallets_flask\\docs\\conf.py"
+        },
+        "chunk_rag": {
+          "method": "chunk_rag",
+          "tokens": 55849,
+          "index_tokens": 50819,
+          "retrieval_tokens": 5030,
+          "time_s": 0.058,
+          "cost_usd": 0.1675,
+          "precision": 0.85,
+          "note": "Top chunk score: 1.00 from C:\\Users\\JGRAVE~1\\AppData\\Local\\Temp\\munch_benchmark_repos\\pallets_flask\\src\\flask\\sansio\\scaffold.py"
+        },
+        "jmri": {
+          "method": "jmri",
+          "tokens": 480,
+          "tokens_saved": 151977,
+          "time_s": 1.786,
+          "cost_usd": 0.0014,
+          "precision": 0.96,
+          "note": "SIMULATED \u2014 install jcodemunch-mcp for real numbers: uvx jcodemunch-mcp"
+        }
+      }
+    },
+    {
+      "query_id": "flask-03",
+      "query": "request before after hook",
+      "results": {
+        "naive": {
+          "method": "naive",
+          "tokens": 147854,
+          "time_s": 0.028,
+          "cost_usd": 0.4436,
+          "precision": 1.0,
+          "note": "Read all files. First match: C:\\Users\\JGRAVE~1\\AppData\\Local\\Temp\\munch_benchmark_repos\\pallets_flask\\examples\\tutorial\\flaskr\\auth.py"
+        },
+        "chunk_rag": {
+          "method": "chunk_rag",
+          "tokens": 55673,
+          "index_tokens": 50819,
+          "retrieval_tokens": 4854,
+          "time_s": 0.052,
+          "cost_usd": 0.167,
+          "precision": 0.85,
+          "note": "Top chunk score: 0.75 from C:\\Users\\JGRAVE~1\\AppData\\Local\\Temp\\munch_benchmark_repos\\pallets_flask\\src\\flask\\app.py"
+        },
+        "jmri": {
+          "method": "jmri",
+          "tokens": 480,
+          "tokens_saved": 151977,
+          "time_s": 1.865,
+          "cost_usd": 0.0014,
+          "precision": 0.96,
+          "note": "SIMULATED \u2014 install jcodemunch-mcp for real numbers: uvx jcodemunch-mcp"
+        }
+      }
+    },
+    {
+      "query_id": "flask-04",
+      "query": "blueprint register",
+      "results": {
+        "naive": {
+          "method": "naive",
+          "tokens": 147854,
+          "time_s": 0.028,
+          "cost_usd": 0.4436,
+          "precision": 1.0,
+          "note": "Read all files. First match: C:\\Users\\JGRAVE~1\\AppData\\Local\\Temp\\munch_benchmark_repos\\pallets_flask\\examples\\celery\\src\\task_app\\views.py"
+        },
+        "chunk_rag": {
+          "method": "chunk_rag",
+          "tokens": 55104,
+          "index_tokens": 50819,
+          "retrieval_tokens": 4285,
+          "time_s": 0.062,
+          "cost_usd": 0.1653,
+          "precision": 0.85,
+          "note": "Top chunk score: 1.00 from C:\\Users\\JGRAVE~1\\AppData\\Local\\Temp\\munch_benchmark_repos\\pallets_flask\\examples\\tutorial\\flaskr\\__init__.py"
+        },
+        "jmri": {
+          "method": "jmri",
+          "tokens": 480,
+          "tokens_saved": 151977,
+          "time_s": 1.868,
+          "cost_usd": 0.0014,
+          "precision": 0.96,
+          "note": "SIMULATED \u2014 install jcodemunch-mcp for real numbers: uvx jcodemunch-mcp"
+        }
+      }
+    },
+    {
+      "query_id": "flask-05",
+      "query": "session cookie secure",
+      "results": {
+        "naive": {
+          "method": "naive",
+          "tokens": 147854,
+          "time_s": 0.027,
+          "cost_usd": 0.4436,
+          "precision": 1.0,
+          "note": "Read all files. First match: C:\\Users\\JGRAVE~1\\AppData\\Local\\Temp\\munch_benchmark_repos\\pallets_flask\\examples\\tutorial\\flaskr\\auth.py"
+        },
+        "chunk_rag": {
+          "method": "chunk_rag",
+          "tokens": 55275,
+          "index_tokens": 50819,
+          "retrieval_tokens": 4456,
+          "time_s": 0.052,
+          "cost_usd": 0.1658,
+          "precision": 0.85,
+          "note": "Top chunk score: 1.00 from C:\\Users\\JGRAVE~1\\AppData\\Local\\Temp\\munch_benchmark_repos\\pallets_flask\\src\\flask\\sessions.py"
+        },
+        "jmri": {
+          "method": "jmri",
+          "tokens": 480,
+          "tokens_saved": 151977,
+          "time_s": 1.838,
+          "cost_usd": 0.0014,
+          "precision": 0.96,
+          "note": "SIMULATED \u2014 install jcodemunch-mcp for real numbers: uvx jcodemunch-mcp"
+        }
+      }
+    },
+    {
+      "query_id": "flask-06",
+      "query": "error handler register exception",
+      "results": {
+        "naive": {
+          "method": "naive",
+          "tokens": 147854,
+          "time_s": 0.028,
+          "cost_usd": 0.4436,
+          "precision": 1.0,
+          "note": "Read all files. First match: C:\\Users\\JGRAVE~1\\AppData\\Local\\Temp\\munch_benchmark_repos\\pallets_flask\\examples\\tutorial\\flaskr\\auth.py"
+        },
+        "chunk_rag": {
+          "method": "chunk_rag",
+          "tokens": 55515,
+          "index_tokens": 50819,
+          "retrieval_tokens": 4696,
+          "time_s": 0.054,
+          "cost_usd": 0.1665,
+          "precision": 0.85,
+          "note": "Top chunk score: 1.00 from C:\\Users\\JGRAVE~1\\AppData\\Local\\Temp\\munch_benchmark_repos\\pallets_flask\\src\\flask\\sansio\\app.py"
+        },
+        "jmri": {
+          "method": "jmri",
+          "tokens": 480,
+          "tokens_saved": 151977,
+          "time_s": 1.909,
+          "cost_usd": 0.0014,
+          "precision": 0.96,
+          "note": "SIMULATED \u2014 install jcodemunch-mcp for real numbers: uvx jcodemunch-mcp"
+        }
+      }
+    },
+    {
+      "query_id": "flask-07",
+      "query": "template render context",
+      "results": {
+        "naive": {
+          "method": "naive",
+          "tokens": 147854,
+          "time_s": 0.027,
+          "cost_usd": 0.4436,
+          "precision": 1.0,
+          "note": "Read all files. First match: C:\\Users\\JGRAVE~1\\AppData\\Local\\Temp\\munch_benchmark_repos\\pallets_flask\\docs\\conf.py"
+        },
+        "chunk_rag": {
+          "method": "chunk_rag",
+          "tokens": 55174,
+          "index_tokens": 50819,
+          "retrieval_tokens": 4355,
+          "time_s": 0.057,
+          "cost_usd": 0.1655,
+          "precision": 0.8,
+          "note": "Top chunk score: 0.67 from C:\\Users\\JGRAVE~1\\AppData\\Local\\Temp\\munch_benchmark_repos\\pallets_flask\\src\\flask\\app.py"
+        },
+        "jmri": {
+          "method": "jmri",
+          "tokens": 480,
+          "tokens_saved": 151977,
+          "time_s": 1.829,
+          "cost_usd": 0.0014,
+          "precision": 0.96,
+          "note": "SIMULATED \u2014 install jcodemunch-mcp for real numbers: uvx jcodemunch-mcp"
+        }
+      }
+    },
+    {
+      "query_id": "flask-08",
+      "query": "test client request",
+      "results": {
+        "naive": {
+          "method": "naive",
+          "tokens": 147854,
+          "time_s": 0.027,
+          "cost_usd": 0.4436,
+          "precision": 1.0,
+          "note": "Read all files. First match: C:\\Users\\JGRAVE~1\\AppData\\Local\\Temp\\munch_benchmark_repos\\pallets_flask\\examples\\celery\\src\\task_app\\views.py"
+        },
+        "chunk_rag": {
+          "method": "chunk_rag",
+          "tokens": 55706,
+          "index_tokens": 50819,
+          "retrieval_tokens": 4887,
+          "time_s": 0.054,
+          "cost_usd": 0.1671,
+          "precision": 0.85,
+          "note": "Top chunk score: 1.00 from C:\\Users\\JGRAVE~1\\AppData\\Local\\Temp\\munch_benchmark_repos\\pallets_flask\\src\\flask\\app.py"
+        },
+        "jmri": {
+          "method": "jmri",
+          "tokens": 480,
+          "tokens_saved": 151977,
+          "time_s": 1.88,
+          "cost_usd": 0.0014,
+          "precision": 0.96,
+          "note": "SIMULATED \u2014 install jcodemunch-mcp for real numbers: uvx jcodemunch-mcp"
+        }
+      }
+    },
+    {
+      "query_id": "flask-09",
+      "query": "configuration from object",
+      "results": {
+        "naive": {
+          "method": "naive",
+          "tokens": 147854,
+          "time_s": 0.028,
+          "cost_usd": 0.4436,
+          "precision": 1.0,
+          "note": "Read all files. First match: C:\\Users\\JGRAVE~1\\AppData\\Local\\Temp\\munch_benchmark_repos\\pallets_flask\\docs\\conf.py"
+        },
+        "chunk_rag": {
+          "method": "chunk_rag",
+          "tokens": 55431,
+          "index_tokens": 50819,
+          "retrieval_tokens": 4612,
+          "time_s": 0.052,
+          "cost_usd": 0.1663,
+          "precision": 0.85,
+          "note": "Top chunk score: 1.00 from C:\\Users\\JGRAVE~1\\AppData\\Local\\Temp\\munch_benchmark_repos\\pallets_flask\\src\\flask\\app.py"
+        },
+        "jmri": {
+          "method": "jmri",
+          "tokens": 480,
+          "tokens_saved": 151977,
+          "time_s": 1.842,
+          "cost_usd": 0.0014,
+          "precision": 0.96,
+          "note": "SIMULATED \u2014 install jcodemunch-mcp for real numbers: uvx jcodemunch-mcp"
+        }
+      }
+    },
+    {
+      "query_id": "flask-10",
+      "query": "signal connect receiver",
+      "results": {
+        "naive": {
+          "method": "naive",
+          "tokens": 147854,
+          "time_s": 0.026,
+          "cost_usd": 0.4436,
+          "precision": 1.0,
+          "note": "Read all files. First match: C:\\Users\\JGRAVE~1\\AppData\\Local\\Temp\\munch_benchmark_repos\\pallets_flask\\examples\\javascript\\tests\\test_js_example.py"
+        },
+        "chunk_rag": {
+          "method": "chunk_rag",
+          "tokens": 53043,
+          "index_tokens": 50819,
+          "retrieval_tokens": 2224,
+          "time_s": 0.056,
+          "cost_usd": 0.1591,
+          "precision": 0.4,
+          "note": "Top chunk score: 0.33 from C:\\Users\\JGRAVE~1\\AppData\\Local\\Temp\\munch_benchmark_repos\\pallets_flask\\src\\flask\\app.py"
+        },
+        "jmri": {
+          "method": "jmri",
+          "tokens": 480,
+          "tokens_saved": 151977,
+          "time_s": 1.869,
+          "cost_usd": 0.0014,
+          "precision": 0.96,
+          "note": "SIMULATED \u2014 install jcodemunch-mcp for real numbers: uvx jcodemunch-mcp"
+        }
+      }
+    }
+  ]
+}

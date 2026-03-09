@@ -1,0 +1,41 @@
+{
+  "name": "mri-client",
+  "version": "1.0.0",
+  "description": "TypeScript client for jMRI-compliant MCP servers (jcodemunch-mcp, jdocmunch-mcp)",
+  "main": "dist/mri-client.js",
+  "types": "dist/mri-client.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/mri-client.js",
+      "require": "./dist/mri-client.js",
+      "types": "./dist/mri-client.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "jmri",
+    "jcodemunch",
+    "jdocmunch",
+    "code-retrieval",
+    "ai",
+    "claude"
+  ],
+  "author": "J. Gravelle",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.0.0"
+  }
+}

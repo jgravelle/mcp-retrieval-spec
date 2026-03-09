@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "jcodemunch-mcp": {
+      "command": "uvx",
+      "args": ["jcodemunch-mcp"]
+    },
+    "jdocmunch-mcp": {
+      "command": "uvx",
+      "args": ["jdocmunch-mcp"]
+    }
+  }
+}
