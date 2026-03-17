@@ -637,7 +637,7 @@ jCodeMunch and jDocMunch are the canonical jMRI-Full implementations.
 - **Stars:** 900+
 - **Languages:** 30+ via tree-sitter (Python, JS/TS, Go, Rust, C#, Java, PHP, Dart, and more)
 - **Install:** `uvx jcodemunch-mcp`
-- **License:** Commercial (Gumroad)
+- **License:** Commercial ([purchase](https://j.gravelle.us/jCodeMunch/descriptions.php#builder))
 
 **jMRI method mapping:**
 
@@ -655,7 +655,7 @@ jCodeMunch and jDocMunch are the canonical jMRI-Full implementations.
 - **Repo:** https://github.com/jgravelle/jdocmunch-mcp
 - **Formats:** Markdown, RST, AsciiDoc, HTML, Jupyter notebooks, OpenAPI specs, plain text
 - **Install:** `uvx jdocmunch-mcp`
-- **License:** Commercial (Gumroad, also bundled with jCodeMunch)
+- **License:** Commercial ([purchase](https://j.gravelle.us/jCodeMunch/descriptions.php#builder), also bundled with jCodeMunch)
 
 **jMRI method mapping:**
 
