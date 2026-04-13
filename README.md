@@ -12,7 +12,7 @@ Four operations. One response envelope. Two compliance levels.
 
 **The problem in numbers:** A typical FastAPI codebase costs ~42,000 tokens to read naively. jMRI retrieval of the same answer costs ~480 tokens. At $3/1M tokens, that's $0.126 vs. $0.0014 per query. Across millions of queries, the savings are material.
 
-The jMunch tools have saved **12.4 billion tokens** across user sessions as of March 3, 2026. This spec is the formal definition of what they do.
+The jMunch tools have saved billions of tokens across user sessions. This spec is the formal definition of what they do.
 
 ---
 
@@ -45,8 +45,9 @@ The spec is open. The best implementations are commercial.
 
 | Implementation | Domain | Stars | Install |
 |----------------|--------|-------|---------|
-| [jCodeMunch](https://github.com/jgravelle/jcodemunch-mcp) | Code (30+ languages) | 900+ | `uvx jcodemunch-mcp` |
-| [jDocMunch](https://github.com/jgravelle/jdocmunch-mcp) | Docs (MD, RST, HTML, notebooks) | 45+ | `uvx jdocmunch-mcp` |
+| [jCodeMunch](https://github.com/jgravelle/jcodemunch-mcp) | Code (70+ languages) | 1,500+ | `uvx jcodemunch-mcp` |
+| [jDocMunch](https://github.com/jgravelle/jdocmunch-mcp) | Docs (MD, RST, HTML, notebooks) | 135+ | `uvx jdocmunch-mcp` |
+| [jDataMunch](https://github.com/jgravelle/jdatamunch-mcp) | Tabular data (CSV, Excel, Parquet, JSONL) | new | `uvx jdatamunch-mcp` |
 
 Both implement jMRI-Full. Licenses available at https://j.gravelle.us/jCodeMunch/
 

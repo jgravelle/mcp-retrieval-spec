@@ -11,13 +11,19 @@
     "jcodemunch-mcp": {
       "command": "uvx",
       "args": ["jcodemunch-mcp"],
-      "_comment": "Full jMRI-Full implementation for code. 12 tools, 30+ languages."
+      "_comment": "Full jMRI-Full implementation for code. 40+ tools, 70+ languages."
     },
 
     "jdocmunch-mcp": {
       "command": "uvx",
       "args": ["jdocmunch-mcp"],
       "_comment": "Full jMRI-Full implementation for docs. MD, RST, HTML, notebooks, OpenAPI."
+    },
+
+    "jdatamunch-mcp": {
+      "command": "uvx",
+      "args": ["jdatamunch-mcp"],
+      "_comment": "Full jMRI-Full implementation for tabular data. CSV, Excel, Parquet, JSONL."
     }
   }
 }
