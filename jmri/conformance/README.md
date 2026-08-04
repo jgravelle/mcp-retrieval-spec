@@ -108,7 +108,7 @@ CLI exit code is `0` for Core-compliant runs (with or without Full gaps) and `1`
 
 ## Self-reporting policy
 
-Per `todo.md` item #8: maintainers run conformance against their own servers and publish the resulting report. We don't run conformance against competitors and publish — running someone else's tests for them is adversarial and the wrong shape for a standards-bearer position.
+Maintainers run conformance against their own servers and publish the resulting report. We don't run conformance against competitors and publish — running someone else's tests for them is adversarial and the wrong shape for a standards-bearer position.
 
 If you're a third-party MCP retrieval tool and want to claim jMRI compliance:
 
